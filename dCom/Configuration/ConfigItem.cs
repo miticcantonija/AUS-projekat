@@ -305,9 +305,7 @@ namespace dCom.Configuration
 					registryType = PointType.DIGITAL_OUTPUT;
 					break;
 
-				case "DI_REG":
-					registryType = PointType.DIGITAL_INPUT;
-					break;
+				
 
 				case "IN_REG":
 					registryType = PointType.ANALOG_INPUT;

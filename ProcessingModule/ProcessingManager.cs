@@ -92,7 +92,6 @@ namespace ProcessingModule
             switch (registryType)
             {
                 case PointType.DIGITAL_OUTPUT: return ModbusFunctionCode.READ_COILS;
-                case PointType.DIGITAL_INPUT: return ModbusFunctionCode.READ_DISCRETE_INPUTS;
                 case PointType.ANALOG_INPUT: return ModbusFunctionCode.READ_INPUT_REGISTERS;
                 case PointType.ANALOG_OUTPUT: return ModbusFunctionCode.READ_HOLDING_REGISTERS;
                 case PointType.HR_LONG: return ModbusFunctionCode.READ_HOLDING_REGISTERS;
